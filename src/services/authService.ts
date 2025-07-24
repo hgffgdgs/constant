@@ -52,33 +52,33 @@ export class AuthService {
     }
   }
 
-  private static async offlineLogin(credentials: LoginCredentials): Promise<ApiResponse<{ user: User; token: string }>> {
-    const savedUser = await OfflineStorageService.getUser();
-    
-    if (!savedUser || savedUser.matricule !== credentials.matricule) {
-      return {
-        success: false,
-        error: 'Aucune session hors ligne disponible pour ce matricule',
-        data: null as any
-      };
-    }
+  // private static async offlineLogin(credentials: LoginCredentials): Promise<ApiResponse<{ user: User; token: string }>> {
+  //   const savedUser = await OfflineStorageService.getUser();
+  //   
+  //   if (!savedUser || savedUser.matricule !== credentials.matricule) {
+  //     return {
+  //       success: false,
+  //       error: 'Aucune session hors ligne disponible pour ce matricule',
+  //       data: null as any
+  //     };
+  //   }
 
-    // In offline mode, we'll allow access with a simplified password check
-    // In a production app, you'd store a hashed password locally
-    if (credentials.password === 'demo123' || credentials.password === savedUser.matricule) {
-      const token = this.generateToken(savedUser);
-      return {
-        success: true,
-        data: { user: savedUser, token }
-      };
-    }
+  //   // In offline mode, we'll allow access with a simplified password check
+  //   // In a production app, you'd store a hashed password locally
+  //   if (credentials.password === 'demo123' || credentials.password === savedUser.matricule) {
+  //     const token = this.generateToken(savedUser);
+  //     return {
+  //       success: true,
+  //       data: { user: savedUser, token }
+  //     };
+  //   }
 
-    return {
-      success: false,
-      error: 'Mot de passe incorrect',
-      data: null as any
-    };
-  }
+  //   return {
+  //     success: false,
+  //     error: 'Mot de passe incorrect',
+  //     data: null as any
+  //   };
+  // }
 
   static async logout(): Promise<void> {
     await OfflineStorageService.clearUser();
@@ -242,8 +242,8 @@ export class AuthService {
     return btoa(password);
   }
 
-  private static async verifyPassword(password: string, hash: string): Promise<boolean> {
-    // Simple verification for demo
-    return btoa(password) === hash || password === 'demo123';
-  }
+  // private static async verifyPassword(password: string, hash: string): Promise<boolean> {
+  //   // Simple verification for demo
+  //   return btoa(password) === hash || password === 'demo123';
+  // }
 }
