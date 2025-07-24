@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "TAMBOURA",
+    "subtitle": "Constats Numériques"
+  },
+  "auth": {
+    "login": "CONNEXION",
+    "logout": "Déconnexion",
+    "matricule": "Matricule",
+    "password": "Mot de passe",
+    "enterMatricule": "Entrez votre matricule",
+    "enterPassword": "Entrez votre mot de passe",
+    "loginError": "Matricule ou mot de passe incorrect",
+    "loginSuccess": "Connexion réussie"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "newReport": "Nouveau constat",
+    "reports": "Mes constats",
+    "administration": "Administration",
+    "profile": "Profil"
+  },
+  "report": {
+    "newReport": "Nouveau constat d'intervention",
+    "incidentType": "Type d'incident",
+    "dateTime": "Date et heure",
+    "location": "Lieu",
+    "description": "Description",
+    "involvedPersons": "Personnes impliquées",
+    "photos": "Photos",
+    "audioNotes": "Notes audio",
+    "signature": "Signature électronique",
+    "validate": "VALIDER",
+    "save": "Sauvegarder",
+    "addPhoto": "Ajouter une photo",
+    "addAudio": "Ajouter une note audio",
+    "addPerson": "Ajouter une personne",
+    "agentSignature": "Signature de l'agent",
+    "witnessSignature": "Signature du témoin",
+    "clear": "Effacer",
+    "sign": "Signer",
+    "currentLocation": "Position actuelle",
+    "getLocation": "Obtenir la position"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "totalReports": "Total constats",
+    "pendingReports": "En attente",
+    "completedReports": "Terminés",
+    "recentReports": "Constats récents",
+    "noReports": "Aucun constat trouvé",
+    "viewAll": "Voir tout",
+    "filterByDate": "Filtrer par date",
+    "filterByType": "Filtrer par type",
+    "filterByStatus": "Filtrer par statut"
+  },
+  "incidentTypes": {
+    "accident": "Accident",
+    "theft": "Vol",
+    "assault": "Agression",
+    "vandalism": "Vandalisme",
+    "disturbance": "Trouble de l'ordre",
+    "fire": "Incendie",
+    "medical": "Urgence médicale",
+    "other": "Autre"
+  },
+  "status": {
+    "draft": "Brouillon",
+    "pending": "En attente",
+    "completed": "Terminé",
+    "signed": "Signé"
+  },
+  "roles": {
+    "agent": "Agent",
+    "supervisor": "Chef d'unité",
+    "admin": "Administrateur"
+  },
+  "common": {
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "export": "Exporter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Attention",
+    "info": "Information",
+    "offline": "Hors ligne",
+    "online": "En ligne",
+    "sync": "Synchroniser",
+    "syncInProgress": "Synchronisation en cours...",
+    "syncCompleted": "Synchronisation terminée"
+  },
+  "errors": {
+    "networkError": "Erreur de connexion",
+    "uploadError": "Erreur lors de l'envoi",
+    "validationError": "Erreur de validation",
+    "unauthorized": "Non autorisé",
+    "notFound": "Non trouvé",
+    "serverError": "Erreur serveur"
+  }
+}

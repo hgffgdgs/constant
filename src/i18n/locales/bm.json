@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "TAMBOURA",
+    "subtitle": "Kunnafoniw dijital la"
+  },
+  "auth": {
+    "login": "DON",
+    "logout": "Bɔ",
+    "matricule": "Jate nimɔrɔ",
+    "password": "Tɔgɔdaɲɛgafe",
+    "enterMatricule": "I ka jate nimɔrɔ sɛbɛn",
+    "enterPassword": "I ka tɔgɔdaɲɛgafe sɛbɛn",
+    "loginError": "Jate nimɔrɔ walima tɔgɔdaɲɛgafe tɛ tiɲɛ",
+    "loginSuccess": "Don kɛra kosɛbɛ"
+  },
+  "navigation": {
+    "dashboard": "Kunnafonidilanbaara",
+    "newReport": "Kunnafoni kura",
+    "reports": "N ka kunnafoniliw",
+    "administration": "Mɔgɔbaaracogo",
+    "profile": "Profil"
+  },
+  "report": {
+    "newReport": "Baarakɛlaw ka kunnafoni kura",
+    "incidentType": "Kɔ cogoya",
+    "dateTime": "Don ni lɛrɛ",
+    "location": "Yɔrɔ",
+    "description": "Ɲɛfɔli",
+    "involvedPersons": "Mɔgɔw minnu bɛ a la",
+    "photos": "Ja",
+    "audioNotes": "Kanko kunnafoniw",
+    "signature": "Tɔgɔsɛbɛn dijital",
+    "validate": "A LAS",
+    "save": "Mara",
+    "addPhoto": "Ja kɛkura",
+    "addAudio": "Kanko kunnafoni kɛkura",
+    "addPerson": "Mɔgɔ kɛkura",
+    "agentSignature": "Baarakɛla tɔgɔsɛbɛn",
+    "witnessSignature": "Mjɛkulu tɔgɔsɛbɛn",
+    "clear": "Jɔsi",
+    "sign": "Tɔgɔ sɛbɛn",
+    "currentLocation": "Sisan yɔrɔ",
+    "getLocation": "Yɔrɔ sɔrɔ"
+  },
+  "dashboard": {
+    "welcome": "Bisimila",
+    "totalReports": "Kunnafoni bɛɛ",
+    "pendingReports": "Makɔnɔnen",
+    "completedReports": "Dafalen",
+    "recentReports": "Kunnafoni kurasenw",
+    "noReports": "Kunnafoni si tɛ",
+    "viewAll": "Bɛɛ lajɛ",
+    "filterByDate": "Don ma danfara",
+    "filterByType": "Cogoya ma danfara",
+    "filterByStatus": "Cogo ma danfara"
+  },
+  "incidentTypes": {
+    "accident": "Farikɔ",
+    "theft": "Wari",
+    "assault": "Dɔnsogo",
+    "vandalism": "Tiɲɛni",
+    "disturbance": "Hakɛ tigɛli",
+    "fire": "Ta",
+    "medical": "Dɔktɔroya",
+    "other": "Wɛrɛ"
+  },
+  "status": {
+    "draft": "Sɛbɛnni kura",
+    "pending": "Makɔnɔ",
+    "completed": "Dafa",
+    "signed": "Tɔgɔsɛbɛnnen"
+  },
+  "roles": {
+    "agent": "Baarakɛla",
+    "supervisor": "Kuntigi",
+    "admin": "Mɔgɔbaaracogo"
+  },
+  "common": {
+    "save": "Mara",
+    "cancel": "Ban",
+    "delete": "Bɔ",
+    "edit": "Ladilan",
+    "view": "Lajɛ",
+    "export": "Bɔli",
+    "search": "Ɲini",
+    "filter": "Danfara",
+    "clear": "Jɔsi",
+    "close": "Datugu",
+    "confirm": "Lase",
+    "loading": "Bɛɛ ka sɔrɔ...",
+    "error": "Fili",
+    "success": "Ɲɛtaa",
+    "warning": "Lasɔmini",
+    "info": "Kunnafoni",
+    "offline": "Ɲɔgɔn tɛ",
+    "online": "Ɲɔgɔn bɛ",
+    "sync": "Bɛnbaliya",
+    "syncInProgress": "Bɛnbaliya kɛtɛɛ...",
+    "syncCompleted": "Bɛnbaliya dafa"
+  },
+  "errors": {
+    "networkError": "Ɲɔgɔn fili",
+    "uploadError": "Ci fili",
+    "validationError": "Kɔrɔbɔ fili",
+    "unauthorized": "Nta tɛ",
+    "notFound": "Ma sɔrɔ",
+    "serverError": "Serveur fili"
+  }
+}
